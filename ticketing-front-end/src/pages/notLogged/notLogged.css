@@ -1,0 +1,52 @@
+.notLoggedContainer {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.boxNotLogged {
+    width: 30%;
+    min-width: 300px;
+    height: auto;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notLoggedInfo {
+    margin-bottom: 20px;
+}
+
+.notLoggedInfo p {
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.signUpButton,
+.loginButton {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px 20px;
+    color: white;
+    background-color: #111e6c;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.signUpButton:hover,
+.loginButton:hover {
+    background-color: #0056b3;
+}

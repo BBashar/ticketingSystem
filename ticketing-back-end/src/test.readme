@@ -1,0 +1,36 @@
+{/* <select
+                    id="category"
+                    name="category"
+                    value={formData.category}
+                    onChange={(e) => {
+                        handleInputChange(e);
+                        // Reset subcategory when category changes
+                        setFormData(prevFormData => ({
+                            ...prevFormData,
+                            subcategory: '',
+                        }));
+                    }}
+                >
+                    <option value="">Select Category</option>
+                    {Object.keys(categories).map((category) => (
+                        <option key={category} value={category}>
+                            {category}
+                        </option>
+                    ))}
+                </select> */}
+
+                {/* <label htmlFor="subcategory">Subcategory:</label>
+                <select
+                    id="subcategory"
+                    name="subcategory"
+                    value={formData.subcategory}
+                    onChange={handleInputChange}
+                // disabled={!formData.category}
+                >
+                    <option value="">Select Subcategory</option>
+                    {formData.category && categories[formData.category].map((subcategory) => (
+                        <option key={subcategory} value={subcategory}>
+                            {subcategory}
+                        </option>
+                    ))}
+                </select> */}

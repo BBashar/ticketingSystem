@@ -1,0 +1,25 @@
+.ticketPageContainer {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.tickets {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}

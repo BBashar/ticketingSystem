@@ -1,0 +1,25 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sep-container {
+    margin-top: -10px;
+    width: 100%;
+    height: 15vh;
+    background-color: #070e10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: #070e10;
+}

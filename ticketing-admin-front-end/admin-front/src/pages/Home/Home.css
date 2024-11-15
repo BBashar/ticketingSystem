@@ -1,0 +1,42 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 20px;
+    height: 100vh;
+    margin: 10px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding-left: 10%;
+}
+
+
+.categoryLink {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111e6c;
+    border: 2px solid #111e6c;
+    color: black;
+
+}
+
+.categoryLink:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
